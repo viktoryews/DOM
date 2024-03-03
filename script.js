@@ -73,8 +73,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       if (
         item.currentParticipants >= item.maxParticipants ||
-        JoinСlass(item.id)
-      ) {
+        JoinСlass(item.id)) {
         signUpButtonElem.disabled = true;
       } else {
         cancelButton.disabled = true;
